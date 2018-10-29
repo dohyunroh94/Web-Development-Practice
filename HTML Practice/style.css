@@ -1,0 +1,38 @@
+body {
+    background-color: powderblue;
+}
+
+#myParagraph {
+	
+	color:red;
+	
+}
+
+.foods{
+	color: green;
+}
+
+h2 {
+	text-align: left;
+}
+p {
+    color: white;
+}
+
+a {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+img {
+	float:center;
+}
+
+th {
+	text-align: left;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}

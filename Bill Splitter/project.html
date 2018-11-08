@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<head>
+		<link rel="stylesheet" href="project.css">
+	</head>
+
+	<script src="project.js"></script>
+
+	<title> Bill Splitter </title>
+
+	<h1> Bill Splitter </h1>
+	
+	<form id="form1">
+		
+		Please enter the total bill: </br>     <input type="number" name="total"> </br>
+		Please enter the number of people:</br><input type="number" name="numOfPeople"> </br>
+		Please enter the tip percentage </br>  <input type="radio" name="tipPercentage" value=1.0 checked> 0%
+										</br>  <input type="radio" name="tipPercentage" value=1.15> 15%
+										</br>  <input type="radio" name="tipPercentage" value=1.18> 18%
+										</br>  <input type="radio" name="tipPercentage" value=1.2> 20%
+		</br>
+		
+	</form>
+	
+	<button onclick="calculateTip()">Try it</button> </br>
+	
+	<p id="bill"></p>
+	
+</body>
+</html>
